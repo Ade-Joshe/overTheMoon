@@ -1,0 +1,55 @@
+.controlKeys {
+    position: absolute;
+    bottom: 3em;
+    right: 3em;
+    width: 30%;
+    max-width: 350px;
+    z-index: 1;
+    padding: 2.5em;
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 3px 16px -12px #000;
+    border-top-left-radius: 6em;
+    border-top-right-radius: 6em;
+}
+
+.controlKeys>h2 {
+    margin-bottom: 1em;
+    color: wheat;
+    font-size: xx-large
+}
+
+.controlKeys>div {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.controlKeys p {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 0.5px solid wheat;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 3em;
+}
+
+.controlKeys p:first-child {
+    width: 270px;
+    border-bottom: 0;
+}
+
+.controlKeys div>p:nth-child(4) {
+    border-left: 0;
+    border-right: 0;
+}
+
+.controlKeys p:hover {
+    background-color: #271a57;
+    color: wheat;
+}

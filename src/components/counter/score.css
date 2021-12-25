@@ -1,0 +1,28 @@
+.scoreCounter {
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out;
+}
+
+.activeCounting {
+    color: #B25102;
+    font-size: 3em;
+    opacity: 0.7;
+}
+
+.activeCounting:hover {
+    opacity: 1;
+}
+
+#countDownTimer {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.09921);
+    color: #00000085;
+    padding: 3em;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+}

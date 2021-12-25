@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    padding: 2em;
+}
+
+header h2 {
+    font-size: 2em;
+}
+
+.centerElement {
+    justify-content: center;
+}
