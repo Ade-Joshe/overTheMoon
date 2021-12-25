@@ -10,7 +10,7 @@ const CountDownTimer = ({ onEndTimer }) => {
     useEffect(() => {
         interval = setInterval(() => {
             timer.current = timer.current - 1;
-            console.log(timer.current)
+            // console.log(timer.current)
             setForceUpdate(Math.random());
 
             if (timer.current === 0) {

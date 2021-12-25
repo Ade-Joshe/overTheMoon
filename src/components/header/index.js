@@ -8,7 +8,7 @@ const Header = ({ isRunning }) => {
     useEffect(() => {
     }, [isRunning]);
 
-    console.log(isRunning)
+    // console.log(isRunning)
     return (
         <header aria-label="game header" className={isRunning && "centerElement"}>
             {!isRunning && <h2>OTM</h2>}

@@ -8,7 +8,7 @@ const ScoreCounter = ({ isRunning }) => {
     const multiplier = useRef(3);
 
     useEffect(() => {
-        console.log(isRunning)
+        // console.log(isRunning)
         if (isRunning) {
             setInterval(() => {
                 let mux = score.current + multiplier.current;
